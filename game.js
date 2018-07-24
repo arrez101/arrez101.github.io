@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <script src="//cdn.jsdelivr.net/npm/phaser@3.0.0/dist/phaser.js"></script>
-    <script src ="game.js"></script>
-</head>
-<body>
-
     <script>
     var config = {
         type: Phaser.AUTO,
@@ -55,6 +47,3 @@
         emitter.startFollow(logo);
     }
     </script>
-
-</body>
-</html>
