@@ -11,7 +11,7 @@ class Example1 extends Phaser.Scene{
 
       create(){
         this.background = this.add.image(400,300,'bg')
-        var haram = this.physics.add.image(400,275,'test');
+        var test = this.physics.add.image(400,275,'test');
 
         this.key_A = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
         this.key_S = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.S);
